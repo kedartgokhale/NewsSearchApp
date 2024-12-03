@@ -1,0 +1,9 @@
+/* src/component/NewsSearch.css */
+.news-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-box {
+    width: 48%;
+}

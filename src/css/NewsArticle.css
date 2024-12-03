@@ -1,0 +1,79 @@
+/* src/css/NewsSearch.css */
+.search-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px 0 0 5px;
+    width: 300px;
+}
+
+.search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-left: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.pagination button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.news-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-box {
+    width: 48%;
+}
+
+/* src/component/NewsArticle.css */
+.news-article {
+    border: 1px solid #ddd;
+    padding: 10px;
+    color: black;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #bf4444 !important;
+}
+
+.news-article h2 {
+    margin: 0 0 10px;
+}
+
+.news-article p {
+    margin: 5px 0;
+}
+
+.news-article a {
+    color: #caca20;
+    text-decoration: none;
+}
+
+.news-article a:hover {
+    text-decoration: underline;
+}
